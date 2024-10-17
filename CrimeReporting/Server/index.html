@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <h1>Hello User</h1>
+        <form method="POST" action="/api/hash/key">
+            <label for="fname">First name:</label><br>
+            <input type="text" id="txnid" name="txnid" value="John"><br>
+            <input type="text" id="amount" name="amount" value="John"><br>
+            <input type="text" id="fname" name="fname" value="John"><br>
+            <input type="text" id="email" name="email" value="John"><br>
+            <input type="submit" value="Submit">
+        </form>
+        <img src="data:image/png;base64,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">
+    </body>
+</html>
